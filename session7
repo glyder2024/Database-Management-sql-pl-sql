@@ -1,0 +1,10 @@
+1.
+Create a table called Restaurant with columns: id, name, location, and cuisine. Apply NOT NULL constraint to name and location, and make id the PRIMARY KEY.
+2.
+Create a table called FoodOrder with columns: order_id, restaurant_id, user_id, and order_total. Set order_id as PRIMARY KEY, and add a FOREIGN KEY constraint on restaurant_id referencing Restaurant(id).
+3.
+Insert 6 rows into a table called SpotifyUser with columns: user_id, username, email, and subscription_type. Ensure that username is UNIQUE and email is NOT NULL.<br><br><em><strong>Hint:</strong> Use the UNIQUE and NOT NULL constraints when creating the table.</em>
+4.
+Create a VIEW named TopSpendersView that shows usernames and order_total from a FoodOrder table where order_total is greater than 1000.
+5.
+Write a SQL query to list all users from the TopSpendersView who have spent more than 2000, sorted by order_total descending.<br><br><em><strong>Constraint:</strong> Only use the TopSpendersView for your query, not the original FoodOrder table.</em>
